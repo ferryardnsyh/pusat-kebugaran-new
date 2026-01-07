@@ -54,14 +54,14 @@ if (isset($_GET['hapus'])) {
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="website.php">Pusat Kebugaran</a>
+                <a class="navbar-brand" href="index.php">Pusat Kebugaran</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href="website.php">Beranda</a>
+                            <a class="nav-link" href="index.php">Beranda</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="#kelas">Kelas</a>
@@ -93,7 +93,7 @@ if (isset($_GET['hapus'])) {
     <section id="home" class="hero">
         <div class="hero-content">
                 <h2 style="color: #f39c12;">Selamat Datang di Pusat Kebugaran Kami!</h2>
-                <p style="color: #f39c12;">Tempat terbaik untuk tubuh sehat dan bugar testing</p>
+                <p style="color: #f39c12;">Tempat terbaik untuk tubuh sehat dan bugar </p>
             <a href="#kelas" class="btn">Lihat Kelas Kami</a>
         </div>
     </section>
