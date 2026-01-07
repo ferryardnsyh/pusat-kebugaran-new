@@ -93,7 +93,7 @@ if (isset($_GET['hapus'])) {
     <section id="home" class="hero">
         <div class="hero-content">
                 <h2 style="color: #f39c12;">Selamat Datang di Pusat Kebugaran Kami!</h2>
-                <p style="color: #f39c12;">Tempat terbaik untuk tubuh sehat dan bugar</p>
+                <p style="color: #f39c12;">Tempat terbaik untuk tubuh sehat dan bugar testing</p>
             <a href="#kelas" class="btn">Lihat Kelas Kami</a>
         </div>
     </section>
