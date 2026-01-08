@@ -1,6 +1,6 @@
 <?php
 // Konfigurasi koneksi database
-$host = "localhost"; 
+$host = "db"; 
 $user = "dbadmin"; 
 $password = "AditFerrySani1+";  
 $dbname = "db_pusatkebugaran";

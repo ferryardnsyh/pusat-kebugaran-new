@@ -1,6 +1,6 @@
 <?php
 // Konfigurasi koneksi database
-$host = "localhost"; 
+$host = "db"; 
 $user = "dbadmin"; 
 $password = "AditFerrySani1+";  
 $dbname = "db_pusatkebugaran";
@@ -54,7 +54,7 @@ if (isset($_GET['hapus'])) {
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
-                <a class="navbar-brand" href="index.php">Sani Qalam</a>
+                <a class="navbar-brand" href="index.php">Pusat Kebugaran</a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
