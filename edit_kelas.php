@@ -1,9 +1,11 @@
 <?php
 // Konfigurasi koneksi database
-$host = "localhost"; 
-$user = "dbadmin"; 
-$password = "AditFerrySani1+";  
-$dbname = "db_pusatkebugaran";
+$env = parse_ini_file(__DIR__.'/.env');
+
+$host = $env['DB_HOST'];
+$user = $env['DB_USERNAME'];
+$password = $env['DB_PASSWORD'];
+$dbname   = $env['DB_DATABASE'];
 
 // Membuat koneksi
 $conn = new mysqli($host, $user, $password, $dbname);
