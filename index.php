@@ -6,7 +6,7 @@ $user = $env['DB_USERNAME'];
 $password = $env['DB_PASSWORD'];
 $dbname   = $env['DB_DATABASE'];
 
-// Membuat koneksi
+// Membuat koneksii
 $conn = new mysqli($host, $user, $password, $dbname);
 
 // Cek koneksi
